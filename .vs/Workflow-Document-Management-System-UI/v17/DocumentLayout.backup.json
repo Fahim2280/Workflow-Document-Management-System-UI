@@ -1,0 +1,919 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Workflow-Document-Management-System-UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:controllers\\workflowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\workflow\\analytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\workflow\\analytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\workflow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\workflow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\workflow\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\workflow\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\workflow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\workflow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\workflowlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\workflowlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:services\\adminapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\services\\workflowapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:services\\workflowapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\workflowselectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\workflowselectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\analyticsfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\analyticsfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminworkloadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminworkloadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\workflowanalyticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\workflowanalyticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminselectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminselectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\assignedadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\assignedadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\workflowdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\workflowdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\workflowresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\workflowresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\createworkflowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\createworkflowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\documenttype\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\documenttype\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:controllers\\documenttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\documenttype\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\documenttype\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\documenttype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\documenttype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\documenttype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\documenttype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\documenttyperesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\documenttyperesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\updatedocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\updatedocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\createdocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\createdocumenttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminlistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminlistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminloginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminloginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\admin\\getadminslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\admin\\getadminslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\apierrorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\apierrorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\dtos\\createadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:dtos\\createadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|d:\\github\\workflow-document-management-system-ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00710EAE-1DE3-456F-90AF-6D4BF70FBD46}|Workflow-Document-Management-System-UI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Analytics.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Analytics.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workflow\\Analytics.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Analytics.cshtml",
+              "RelativeToolTip": "Views\\Workflow\\Analytics.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:50:45.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workflow\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Create.cshtml",
+              "RelativeToolTip": "Views\\Workflow\\Create.cshtml",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAwwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:49:15.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workflow\\Details.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Details.cshtml",
+              "RelativeToolTip": "Views\\Workflow\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:48:03.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Workflow\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Workflow\\Index.cshtml",
+              "RelativeToolTip": "Views\\Workflow\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:43:20.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkflowController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\WorkflowController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkflowController.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\WorkflowController.cs",
+              "RelativeToolTip": "Controllers\\WorkflowController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAIQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:34:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminApiService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Services\\AdminApiService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminApiService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Services\\AdminApiService.cs",
+              "RelativeToolTip": "Services\\AdminApiService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:33:34.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkflowApiService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Services\\WorkflowApiService.cs",
+              "RelativeDocumentMoniker": "Services\\WorkflowApiService.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Services\\WorkflowApiService.cs",
+              "RelativeToolTip": "Services\\WorkflowApiService.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAwwHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:32:43.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:32:20.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:32:19.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkflowListViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowListViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowListViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowListViewModel.cs",
+              "RelativeToolTip": "DTOs\\WorkflowListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:28:20.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:32:17.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WorkflowSelectViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowSelectViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowSelectViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowSelectViewModel.cs",
+              "RelativeToolTip": "DTOs\\WorkflowSelectViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:31:50.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AnalyticsFilterViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AnalyticsFilterViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\AnalyticsFilterViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AnalyticsFilterViewModel.cs",
+              "RelativeToolTip": "DTOs\\AnalyticsFilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:31:23.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminWorkloadViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminWorkloadViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminWorkloadViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminWorkloadViewModel.cs",
+              "RelativeToolTip": "DTOs\\AdminWorkloadViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:30:58.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WorkflowAnalyticsViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowAnalyticsViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowAnalyticsViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowAnalyticsViewModel.cs",
+              "RelativeToolTip": "DTOs\\WorkflowAnalyticsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:30:36.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminSummaryViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminSummaryViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminSummaryViewModel.cs",
+              "RelativeToolTip": "DTOs\\AdminSummaryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:30:14.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminSelectViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminSelectViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminSelectViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminSelectViewModel.cs",
+              "RelativeToolTip": "DTOs\\AdminSelectViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:29:53.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssignedAdminViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AssignedAdminViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\AssignedAdminViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AssignedAdminViewModel.cs",
+              "RelativeToolTip": "DTOs\\AssignedAdminViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:29:24.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WorkflowDetailViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowDetailViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowDetailViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowDetailViewModel.cs",
+              "RelativeToolTip": "DTOs\\WorkflowDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:29:02.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WorkflowResponseViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowResponseViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\WorkflowResponseViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\WorkflowResponseViewModel.cs",
+              "RelativeToolTip": "DTOs\\WorkflowResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:28:39.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateWorkflowViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\CreateWorkflowViewModel.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateWorkflowViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\CreateWorkflowViewModel.cs",
+              "RelativeToolTip": "DTOs\\CreateWorkflowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:27:36.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-08-20T19:51:07.619Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-20T19:51:00.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-20T19:50:56.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:30:18.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\DocumentType\\Create.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Create.cshtml",
+              "RelativeToolTip": "Views\\DocumentType\\Create.cshtml",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAwwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T19:37:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T15:59:33.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T15:59:34.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T16:59:44.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T19:51:24.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApiResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\ApiResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ApiResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\ApiResponseDto.cs",
+              "RelativeToolTip": "DTOs\\ApiResponseDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:28:59.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-20T15:57:12.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DocumentType\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Index.cshtml",
+              "RelativeToolTip": "Views\\DocumentType\\Index.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAwwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T19:35:45.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DocumentTypeResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\DocumentTypeResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentTypeResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\DocumentTypeResponseDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentTypeResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:28:20.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T15:59:21.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T15:59:24.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\DocumentType\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Edit.cshtml",
+              "RelativeToolTip": "Views\\DocumentType\\Edit.cshtml",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAwwNkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T19:39:39.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\DocumentType\\Details.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\DocumentType\\Details.cshtml",
+              "RelativeToolTip": "Views\\DocumentType\\Details.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAwwA4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T19:43:13.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateDocumentTypeDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\UpdateDocumentTypeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateDocumentTypeDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\UpdateDocumentTypeDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateDocumentTypeDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:27:34.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DocumentTypeController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\DocumentTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentTypeController.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\DocumentTypeController.cs",
+              "RelativeToolTip": "Controllers\\DocumentTypeController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAL8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:25:02.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateDocumentTypeDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\CreateDocumentTypeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateDocumentTypeDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\CreateDocumentTypeDto.cs",
+              "RelativeToolTip": "DTOs\\CreateDocumentTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:26:51.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T18:55:14.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AdminResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AdminResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:51:28.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AdminListResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminListResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminListResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminListResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AdminListResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:51:05.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AdminLoginResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminLoginResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminLoginResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminLoginResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AdminLoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:17:14.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:34:08.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwIAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:23:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetAdminsList.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Admin\\GetAdminsList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\GetAdminsList.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Admin\\GetAdminsList.cshtml",
+              "RelativeToolTip": "Views\\Admin\\GetAdminsList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T18:34:26.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AdminLoginDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminLoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminLoginDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\AdminLoginDto.cs",
+              "RelativeToolTip": "DTOs\\AdminLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:26:45.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T16:54:38.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ApiErrorResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\ApiErrorResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ApiErrorResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\ApiErrorResponseDto.cs",
+              "RelativeToolTip": "DTOs\\ApiErrorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T16:41:36.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreateAdminDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\CreateAdminDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateAdminDto.cs",
+              "ToolTip": "D:\\GitHub\\Workflow-Document-Management-System-UI\\DTOs\\CreateAdminDto.cs",
+              "RelativeToolTip": "DTOs\\CreateAdminDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:28:11.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

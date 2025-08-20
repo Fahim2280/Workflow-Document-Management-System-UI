@@ -1,0 +1,167 @@
+﻿@model Workflow_Document_Management_System_UI.DTOs.CreateDocumentTypeDto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h3 mb-0 text-gray-800">Create New Document Type</h1>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to List
+                </a>
+            </div>
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            }
+
+            <div class="card shadow">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Document Type Information</h6>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        @Html.AntiForgeryToken()
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="TypeName" class="form-label">Type Name <span class="text-danger">*</span></label>
+                                    <input asp-for="TypeName" class="form-control" placeholder="Enter document type name" />
+                                    <span asp-validation-for="TypeName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="MaxFileSizeMB" class="form-label">Max File Size (MB) <span class="text-danger">*</span></label>
+                                    <input asp-for="MaxFileSizeMB" type="number" class="form-control" min="1" max="500" />
+                                    <span asp-validation-for="MaxFileSizeMB" class="text-danger"></span>
+                                    <small class="form-text text-muted">Maximum allowed file size in megabytes (1-500 MB)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group mb-3">
+                                    <label asp-for="Description" class="form-label">Description</label>
+                                    <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter description for this document type"></textarea>
+                                    <span asp-validation-for="Description" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group mb-3">
+                                    <label asp-for="AllowedExtensions" class="form-label">Allowed Extensions <span class="text-danger">*</span></label>
+                                    <input asp-for="AllowedExtensions" class="form-control" placeholder="e.g., .pdf,.docx,.xlsx,.jpg,.png" />
+                                    <span asp-validation-for="AllowedExtensions" class="text-danger"></span>
+                                    <small class="form-text text-muted">Comma-separated file extensions (with dots). Example: .pdf,.docx,.xlsx,.jpg,.png</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Common File Extension Examples:</h6>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <strong>Documents:</strong><br>
+                                                <code>.pdf,.docx,.doc,.txt</code>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <strong>Spreadsheets:</strong><br>
+                                                <code>.xlsx,.xls,.csv</code>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <strong>Images:</strong><br>
+                                                <code>.jpg,.jpeg,.png,.gif</code>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <strong>Archives:</strong><br>
+                                                <code>.zip,.rar,.7z</code>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="form-group d-flex gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Create Document Type
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-times"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function() {
+            // Auto-hide alerts after 5 seconds
+            setTimeout(function() {
+                $('.alert').fadeOut();
+            }, 5000);
+
+            // Real-time validation for allowed extensions
+            $('#AllowedExtensions').on('input', function() {
+                var value = $(this).val();
+                var extensions = value.split(',').map(ext => ext.trim());
+                var isValid = true;
+
+                extensions.forEach(function(ext) {
+                    if (ext && !ext.startsWith('.')) {
+                        isValid = false;
+                    }
+                });
+
+                if (!isValid) {
+                    $(this).addClass('is-invalid');
+                    if (!$(this).next('.invalid-feedback').length) {
+                        $(this).after('<div class="invalid-feedback">Each extension must start with a dot (.)</div>');
+                    }
+                } else {
+                    $(this).removeClass('is-invalid');
+                    $(this).next('.invalid-feedback').remove();
+                }
+            });
+
+            // File size validation
+            $('#MaxFileSizeMB').on('input', function() {
+                var value = parseInt($(this).val());
+                if (value < 1 || value > 500) {
+                    $(this).addClass('is-invalid');
+                    if (!$(this).next('.invalid-feedback').length) {
+                        $(this).after('<div class="invalid-feedback">File size must be between 1 and 500 MB</div>');
+                    }
+                } else {
+                    $(this).removeClass('is-invalid');
+                    $(this).next('.invalid-feedback').remove();
+                }
+            });
+        });
+    </script>
+}

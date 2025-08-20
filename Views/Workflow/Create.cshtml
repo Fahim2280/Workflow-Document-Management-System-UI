@@ -1,0 +1,185 @@
+﻿@model Workflow_Document_Management_System_UI.DTOs.CreateWorkflowViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2><i class="bi bi-plus-circle"></i> Create New Workflow</h2>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index">Workflows</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Create</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        <form asp-action="Create" method="post" class="needs-validation" novalidate>
+            <div class="card">
+                <div class="card-header">
+                    <i class="bi bi-form"></i> Workflow Information
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="WorkflowName" class="form-label">
+                                    Workflow Name <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="WorkflowName" class="form-control" placeholder="Enter workflow name">
+                                <span asp-validation-for="WorkflowName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="WorkflowType" class="form-label">
+                                    Workflow Type <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="WorkflowType" class="form-select">
+                                    <option value="">Select workflow type</option>
+                                    <option value="Order">Order</option>
+                                    <option value="Pool">Pool</option>
+                                </select>
+                                <span asp-validation-for="WorkflowType" class="text-danger"></span>
+                                <div class="form-text">
+                                    <strong>Order:</strong> Sequential processing<br>
+                                    <strong>Pool:</strong> Any available admin can process
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label">Description</label>
+                        <textarea asp-for="Description" class="form-control" rows="3"
+                                  placeholder="Enter workflow description (optional)"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header">
+                    <i class="bi bi-people"></i> Assign Administrators <span class="text-danger">*</span>
+                </div>
+                <div class="card-body">
+                    <span asp-validation-for="AssignedAdminIds" class="text-danger d-block mb-3"></span>
+
+                    @if (Model.AvailableAdmins.Any())
+                    {
+                        <div class="row">
+                            @foreach (var admin in Model.AvailableAdmins)
+                            {
+                                <div class="col-md-6 col-lg-4 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox"
+                                               name="AssignedAdminIds" value="@admin.AdminId"
+                                               id="admin_@admin.AdminId"
+                                        @(admin.IsSelected ? "checked" : "")>
+                                        <label class="form-check-label" for="admin_@admin.AdminId">
+                                            <strong>@admin.Username</strong><br>
+                                            <small class="text-muted">@admin.Email</small>
+                                        </label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                        <hr class="my-3">
+                        <div class="d-flex gap-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="selectAllAdmins()">
+                                <i class="bi bi-check-all"></i> Select All
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="clearAllAdmins()">
+                                <i class="bi bi-x"></i> Clear All
+                            </button>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i>
+                            No administrators available. Please contact system administrator.
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Cancel
+                        </a>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-check"></i> Create Workflow
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Help Panel -->
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="bi bi-question-circle"></i> Help & Tips
+            </div>
+            <div class="card-body">
+                <h6>Workflow Types:</h6>
+                <ul class="list-unstyled">
+                    <li><strong>Order:</strong> Documents are processed in sequence by assigned administrators.</li>
+                    <li><strong>Pool:</strong> Any assigned administrator can pick up and process documents.</li>
+                </ul>
+
+                <hr>
+
+                <h6>Best Practices:</h6>
+                <ul class="small">
+                    <li>Use descriptive workflow names</li>
+                    <li>Assign multiple administrators for better coverage</li>
+                    <li>Include clear descriptions for complex workflows</li>
+                    <li>Consider workload balance when assigning admins</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function selectAllAdmins() {
+            document.querySelectorAll('input[name="AssignedAdminIds"]').forEach(checkbox => {
+                checkbox.checked = true;
+            });
+        }
+
+        function clearAllAdmins() {
+            document.querySelectorAll('input[name="AssignedAdminIds"]').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+        }
+
+        // Bootstrap form validation
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}
